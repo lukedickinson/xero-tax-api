@@ -4,16 +4,13 @@ app = FastAPI()
 
 gstDict = {
     "AU": {
-        "countryName": "Australia",
-        "gstRate": 0.1,
-        "currency": "AUD",
-        "currencySymbol": "$"
+        "gstRate": 0.1
     },
     "NZ": {
-        "countryName": "New Zealand",
-        "gstRate": 0.15,
-        "currency": "NZD",
-        "currencySymbol": "$"
+        "gstRate": 0.15
+    },
+    "CA": {
+        "gstRate": 0.05
     }
 }
 
